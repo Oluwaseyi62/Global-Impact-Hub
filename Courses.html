@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 
@@ -27,71 +28,179 @@
 										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
 									</ul>
 								</header>
+                               
 
-							
+                                 <!-- Hero Section -->
+    <section class="bg-indigo-600 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Explore Our Courses</h1>
+            <p class="text-lg mb-6">Discover courses across different categories and upskill yourself today!</p>
+            <a href="#courses" class="bg-white text-indigo-600 font-semibold py-2 px-6 rounded-full">Browse Courses</a>
+        </div>
+    </section>
+	
+    
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">Popular Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Course Card 1 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/300x200/?code,technology" alt="ICT Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ICT Fundamentals</h3>
+                        <p class="text-gray-700 mb-4">Master the basics of Information and Communication Technology and kickstart your tech journey.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-900 font-bold">$49.99</span>
+                            <a href="#" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/300x200/?math,education" alt="Math Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Advanced Mathematics</h3>
+                        <p class="text-gray-700 mb-4">Deepen your understanding of mathematical concepts and improve your problem-solving skills.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-900 font-bold">$59.99</span>
+                            <a href="#" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/300x200/?science,learning" alt="Science Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Science Exploration</h3>
+                        <p class="text-gray-700 mb-4">Explore the wonders of science and get hands-on experience in various scientific domains.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-900 font-bold">$69.99</span>
+                            <a href="#" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 4 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/300x200/?literature,reading" alt="Literature Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Literature & Composition</h3>
+                        <p class="text-gray-700 mb-4">Dive into the world of literature and enhance your reading and writing skills.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-900 font-bold">$39.99</span>
+                            <a href="#" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 5 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/300x200/?history,education" alt="History Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">World History</h3>
+                        <p class="text-gray-700 mb-4">Learn about significant events in world history and how they shaped today's world.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-900 font-bold">$45.99</span>
+                            <a href="#" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course Card 6 -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/300x200/?music,learning" alt="Music Course" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Music Theory Basics</h3>
+                        <p class="text-gray-700 mb-4">Learn the fundamentals of music theory and composition in this beginner-friendly course.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-900 font-bold">$34.99</span>
+                            <a href="#" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 								
 
 						<!-- Menu -->
-							<nav id="menu">
-								<header class="major">
-									<h2>Menu</h2>
-								</header>
-								<ul>
-									<li><a href="index.html">Homepage</a></li>
-									<li><a href="generic.html">About Founder</a></li>
-									<li><a href="elements.html">More Of GIH</a></li>
-									<li><a href="article.html">Article</a></li>
-									<li><a href="Courses.html">Take Courses</a></li>
-									<li><a href="Volunteer.html">Be a Volunteer</a></li>
-									<li>
-										
-							</nav>
-
-							<!-- Section -->
-                            <section>
-                                <header class="major">
-                                    <h2>Impacts of GIH</h2>
-                                </header>
-                                <div class="mini-posts">
-                                    <article>
-                                        <a href="generic.html" class="image"><img src="images/pd.jpg" alt="" /></a>
-                                        <p>Oluwaferanmi Famawode is a dynamic young leader</p>
-                                    </article>
-                                    <article>
-                                        <a href="article.html" class="image"><img src="images/IMP.JPG" alt="" /></a>
-                                        <p>Children in poor environment often lack access to basic necessities.</p>
-                                    </article>
-                                    <article>
-                                        <a href="article.html" class="image"><img src="images/FAV.JPG" alt="" /></a>
-                                        <p>There's great gain in investing to the poor, cause we can only rise by lifting others.</p>
-                                    </article>
-                                </div>
-                                <ul class="actions">
-                                    <li><a href="article.html" class="button">More</a></li>
-                                </ul>
-                            </section>
-                            
-						<!-- Section -->
-							<section>
-								<header class="major">
-									<h2>Get in touch</h2>
-								</header>
-								<p>We are always open to discussions, ideas, and opportunities. Let’s make something great together. </p>
-								<ul class="contact">
-									<li class="icon solid fa-envelope"><a href="https://mail.google.com/mail/u/1/#inbox">theglobalimpacthub@gmail.com</a></li>
-									<li class="icon solid fa-phone">(000) 000-0000</li>
-									<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-									Nashville, TN 00000-0000</li>
-								</ul>
-							</section>
-
-						<!-- Footer -->
-							<footer id="footer">
-								<p class="copyright">&copy; Global Impact Hub. All rights reserved.</p>
-							</footer>
-
-					</div>
-				</div>
+						<div id="sidebar">
+							<div class="inner">
+		
+								<!-- Search -->
+									<section id="search" class="alt">
+										<form method="post" action="#">
+											<input type="text" name="query" id="query" placeholder="Search" />
+										</form>
+									</section>
+		
+								<!-- Menu -->
+									<nav id="menu">
+										<header class="major">
+											<h2>Menu</h2>
+										</header>
+										<ul>
+											<li><a href="index.html">Homepage</a></li>
+											<li><a href="generic.html">About Founder</a></li>
+											<li><a href="elements.html">More Of GIH</a></li>
+											<li><a href="article.html">Article</a></li>
+											<li><a href="Courses.html">Take Courses</a></li>
+											<li><a href="Volunteer.html">Be a Volunteer</a></li>
+											<li>
+												
+									</nav>
+		
+													<!-- Section -->
+													<section>
+														<header class="major">
+															<h2>Impacts of GIH</h2>
+														</header>
+														<div class="mini-posts">
+															<article>
+																<a href="generic.html" class="image"><img src="images/pd.jpg" alt="" /></a>
+																<p>Oluwaferanmi Famawode is a dynamic young leader</p>
+															</article>
+															<article>
+																<a href="article.html" class="image"><img src="images/IMP.JPG" alt="" /></a>
+																<p>Children in poor environment often lack access to basic necessities.</p>
+															</article>
+															<article>
+																<a href="article.html" class="image"><img src="images/FAV.JPG" alt="" /></a>
+																<p>There's great gain in investing to the poor, cause we can only rise by lifting others.</p>
+															</article>
+														</div>
+														<ul class="actions">
+															<li><a href="article.html" class="button">More</a></li>
+														</ul>
+													</section>
+		
+								<!-- Section -->
+									<section>
+										<header class="major">
+											<h2>Get in touch</h2>
+										</header>
+										<p>We are always open to discussions, ideas, and opportunities. Let’s make something great together. </p>
+										<ul class="contact">
+											<li class="icon solid fa-envelope"><a href="https://mail.google.com/mail/u/1/#inbox">theglobalimpacthub@gmail.com</a></li>
+											<li class="icon solid fa-phone">(000) 000-0000</li>
+											<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+											Nashville, TN 00000-0000</li>
+										</ul>
+									</section>
+		
+								<!-- Footer -->
+									<footer id="footer">
+										<p class="copyright">&copy; Global Impact Hub. All rights reserved.</p>
+									</footer>
+		
+							</div>
+						</div>
 
 			</div>
 

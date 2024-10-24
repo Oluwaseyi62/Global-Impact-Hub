@@ -44,6 +44,75 @@ ol, ul {
   margin-right: 1rem;
 }
 
+.img-pic {
+  width:100%;
+  height: 24rem;
+  object-fit: cover;
+  border-radius: 0.375rem;
+  margin-bottom: 2rem;
+}
+
+.article-content {
+  font-size: 1.125rem;        /* Equivalent to prose-lg (18px) */
+  line-height: 1.75rem;       /* Adjust line height for readability */
+  max-width: 65ch;            /* Max width for readable text (around 65 characters) */
+  color: #374151;             /* Text color (prose typically uses a dark gray) */
+}
+
+.article-content h1, 
+.article-content h2, 
+.article-content h3, 
+.article-content h4, 
+.article-content h5, 
+.article-content h6 {
+  color: #111827;             /* Darker color for headings */
+  font-weight: 700;           /* Bold for headings */
+  margin-top: 1.5rem;         /* Spacing above headings */
+  margin-bottom: 1rem;        /* Spacing below headings */
+}
+
+.article-content p {
+  margin-bottom: 1.25rem;     /* Bottom margin for paragraphs */
+}
+
+.article-content ul, 
+.article-content ol {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;       /* Indentation for lists */
+}
+
+.article-content blockquote {
+  padding-left: 1.25rem;
+  border-left: 4px solid #ddd; /* Left border for blockquotes */
+  color: #6b7280;              /* Lighter gray color */
+  font-style: italic;
+}
+
+.article-content img {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  max-width: 100%;             /* Make sure images are responsive */
+  border-radius: 0.375rem;      /* Rounded corners for images */
+}
+
+
+.see-button {
+  display: block;                   /* Block-level element */
+  text-align: center;               /* Center the text */
+  margin-top: 1rem;                 /* 16px top margin */
+  background-color: #6366f1;        /* Medium indigo background */
+  color: white;                     /* White text */
+  font-weight: bold;                /* Bold text */
+  padding: 0.5rem 1rem;             /* Padding: 8px top/bottom, 16px left/right */
+  border-radius: 0.25rem;           /* Rounded corners (4px) */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.see-button:hover {
+  background-color: #4f46e5;        /* Darker indigo on hover */
+}
+
 blockquote, q {
   quotes: none; }
   blockquote:before, blockquote:after, q:before, q:after {
