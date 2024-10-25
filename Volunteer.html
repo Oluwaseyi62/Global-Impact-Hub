@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 
@@ -28,7 +29,82 @@
 									</ul>
 								</header>
 
-							
+                                <section class="bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('https://example.com/hero-image.jpg');">
+                                    <div class="bg-black bg-opacity-50 p-10 text-center rounded-lg">
+                                      <h1 class="text-4xl font-bold text-white">Join Us as a Volunteer</h1>
+                                      <p class="mt-4 text-lg text-gray-300">Make a difference by lending a helping hand to those in need. Your journey towards impactful change starts here!</p>
+                                      <button class="mt-8 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded-lg">Get Started</button>
+                                    </div>
+                                  </section>
+                                
+                                  <!-- About Volunteering Section -->
+                                  <section class="container mx-auto mt-20 p-6 text-center">
+                                    <h2 class="text-3xl font-semibold text-gray-700">Why Volunteer?</h2>
+                                    <p class="mt-4 max-w-2xl mx-auto text-gray-600">Volunteering is an opportunity to make meaningful contributions to your community, gain new skills, and connect with like-minded individuals. Whether you’re passionate about education, environmental conservation, or helping those in need, there's a place for you with us.</p>
+                                  </section>
+                                
+                                  <!-- Volunteer Opportunities Section -->
+                                  <section class="container mx-auto mt-12 p-6 grid lg:grid-cols-3 gap-8">
+                                    <!-- Opportunity 1 -->
+                                    <div class="bg-white shadow-lg rounded-lg p-8 text-center">
+                                      <h3 class="text-2xl font-bold text-gray-700">Community Outreach</h3>
+                                      <p class="text-gray-600 mt-4">Engage with the community by participating in outreach programs to educate and support underprivileged areas.</p>
+                                      <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Learn More</button>
+                                    </div>
+                                
+                                    <!-- Opportunity 2 -->
+                                    <div class="bg-white shadow-lg rounded-lg p-8 text-center">
+                                      <h3 class="text-2xl font-bold text-gray-700">Environmental Conservation</h3>
+                                      <p class="text-gray-600 mt-4">Join our team in conserving nature by participating in clean-ups, tree planting, and promoting sustainability.</p>
+                                      <button class="mt-6 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg">Get Involved</button>
+                                    </div>
+                                
+                                    <!-- Opportunity 3 -->
+                                    <div class="bg-white shadow-lg rounded-lg p-8 text-center">
+                                      <h3 class="text-2xl font-bold text-gray-700">Education & Mentorship</h3>
+                                      <p class="text-gray-600 mt-4">Support our educational programs by mentoring young people and providing guidance on academic and career goals.</p>
+                                      <button class="mt-6 bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg">Join Now</button>
+                                    </div>
+                                  </section>
+                                
+                                  <!-- Volunteer Form Section -->
+                                  <section class="container mx-auto mt-20 p-6 bg-gray-100 rounded-lg shadow-md">
+                                    <h2 class="text-3xl font-semibold text-center text-gray-700">Sign Up to Volunteer</h2>
+                                    <p class="mt-4 text-center text-gray-600">Fill out the form below to join our team of dedicated volunteers. We’ll get in touch with more information about opportunities that match your interests.</p>
+                                
+                                    <form class="mt-8 space-y-6 max-w-lg mx-auto">
+                                      <div>
+                                        <label class="block text-gray-600 font-medium">Name</label>
+                                        <input type="text" class="w-full mt-2 p-2 border border-gray-300 rounded-lg" placeholder="Your Name" required>
+                                      </div>
+                                
+                                      <div>
+                                        <label class="block text-gray-600 font-medium">Email</label>
+                                        <input type="email" class="w-full mt-2 p-2 border border-gray-300 rounded-lg" placeholder="Your Email" required>
+                                      </div>
+                                
+                                      <div>
+                                        <label class="block text-gray-600 font-medium">Area of Interest</label>
+                                        <select class="w-full mt-2 p-2 border border-gray-300 rounded-lg">
+                                          <option>Community Outreach</option>
+                                          <option>Environmental Conservation</option>
+                                          <option>Education & Mentorship</option>
+                                        </select>
+                                      </div>
+                                
+                                      <button type="submit" class="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded-lg">Submit</button>
+                                    </form>
+                                  </section>
+                                
+                                  <!-- Footer Section -->
+                                  <footer class="bg-gray-800 text-gray-200 text-center p-6 mt-20">
+                                    <p class="text-sm">© 2024 Make a Difference Foundation. All Rights Reserved.</p>
+                                    <div class="mt-4">
+                                      <a href="#" class="text-gray-400 hover:text-white mx-2">Facebook</a> |
+                                      <a href="#" class="text-gray-400 hover:text-white mx-2">Instagram</a> |
+                                      <a href="#" class="text-gray-400 hover:text-white mx-2">Twitter</a>
+                                    </div>
+                                  </footer>
 								
 
 						<!-- Menu -->
